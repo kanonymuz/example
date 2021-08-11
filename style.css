@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0089d0;
+    padding: 12px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.home {
+    width: 20px;
+    height: 20px;
+}
+
+
+.menu li {
+    display: inline-block;
+    list-style: none;
+    margin-right: 20px;
+}
+
+.menu li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    text-decoration: underline;
+}
+
+.social img {
+    margin-right: 20px;
+}
